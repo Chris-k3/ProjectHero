@@ -1,0 +1,11 @@
+name=Zomb-Band - Custom Songs
+id=HUNKZombBandCustom
+author=HUNK
+version=0.10.0
+versionMin=42.21
+require=\HUNKSurvivorBand,\ZombieBuddy
+javaJarFile=media/java/client/ZombBandMedia.jar
+javaPkgName=hunk.zombband.media
+ZBVersionMin=2.3.0
+description=Optional YouTube audio preparation and custom rhythm charts for Zomb-Band. Every musician needs this companion and ZombieBuddy. Uses separately installed yt-dlp/ffmpeg; no Viewpoint requirement. Experimental custom playback; bundled tracks retain their normal audio system.
+poster=poster.png

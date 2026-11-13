@@ -1,0 +1,784 @@
+/* All music and samples original to Survivor Band. */
+module Base
+{
+    sound HB_Guitar_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Guitar_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Guitar_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Guitar_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Guitar_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Guitar_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Guitar_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Guitar_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Guitar_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Guitar_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Acoustic_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Acoustic_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Acoustic_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Acoustic_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Acoustic_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Acoustic_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Acoustic_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Acoustic_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Acoustic_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Acoustic_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Bass_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Bass_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Bass_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Bass_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Bass_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Bass_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Bass_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Bass_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Bass_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Bass_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Banjo_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Banjo_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Banjo_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Banjo_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Banjo_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Banjo_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Banjo_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Banjo_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Banjo_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Banjo_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Violin_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Violin_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Violin_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Violin_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Violin_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Violin_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Violin_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Violin_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Violin_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Violin_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Flute_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Flute_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Flute_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Flute_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Flute_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Flute_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Flute_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Flute_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Flute_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Flute_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Sax_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Sax_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Sax_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Sax_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Sax_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Sax_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Sax_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Sax_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Sax_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Sax_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Trumpet_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Trumpet_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Trumpet_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Trumpet_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Trumpet_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Trumpet_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Trumpet_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Trumpet_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Trumpet_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Trumpet_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Harmonica_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Harmonica_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Harmonica_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Harmonica_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Harmonica_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Harmonica_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Harmonica_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Harmonica_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Harmonica_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Harmonica_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Keyboard_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Keyboard_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Keyboard_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Keyboard_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Keyboard_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Keyboard_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Keyboard_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Keyboard_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Keyboard_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Keyboard_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Drums_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Drums_1.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Drums_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Drums_2.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Drums_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Drums_3.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Drums_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Drums_4.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Drums_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Drums_5.ogg,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Vocals_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Vocals_1.wav,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Vocals_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Vocals_2.wav,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Vocals_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Vocals_3.wav,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Vocals_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Vocals_4.wav,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound HB_Vocals_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/HUNKBand/Vocals_5.wav,
+            volume = 0.88,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+}

@@ -1,0 +1,719 @@
+Zomb-Band 0.10.0 / HUNK
+87 regression groups per engine (61 gameplay/network/UI, 18 director, 8 production catalog/menu). World/network/UI APIs mocked. Offline original media bridge fixture + actual Windows muted PCM cursor + actual game Lua/ZombieBuddy export + native Workshop validation pass. Live YouTube download, audible in-game custom playback and real multi-computer synchronization remain unverified.
+
+Lua 5.1 gameplay
+PASS all instrument/difficulty charts stay within audio and increase density
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS exact inventory types, nested bags, and false-positive rejection
+PASS miss expiration and wrong-key streak reset happen once
+PASS judgment boundaries and streak multipliers
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band CAMERA] Camera companion not loaded - enable it and restart
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+PASS inventory Rock Out opens setup, selects song/difficulty, starts solo
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 5ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS network clock skew and latency do not change a perfect hit
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+PASS discovery after lobby creation, per-player difficulty, disconnect migration
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS jitter, backing schedule, pending acknowledgments, and rewind bound
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS errors are visible, cross-floor and missing-instrument requests rejected
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+PASS all songs/difficulties complete, reconcile results, and replay a fresh round
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS abandoned lobby expires without retaining disconnected identities
+PASS all imported song charts are nested, role-specific and within playback
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS full imported song plays with delayed acknowledgments and no synthetic tones
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS UI children are constructed exactly once through vanilla-style instantiation
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS the ten vanilla instruments work without accessories and forbidden items cannot bypass exclusions
+PASS spatial gain falls off in three dimensions and band radii stay small and capped
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS two independent clients start one positional mix in sync and do not duplicate AI noise
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 5ms
+PASS a spectator waits for clock calibration instead of starting early from a skewed wall clock
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 5ms
+PASS six-member noise range shrinks on invalid membership and stops at the end of the song
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS all ten instruments use matching timed-action loops and hand models
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS being hit interrupts the performance and cleans up the animation and owned audio
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] Audio ZB_Track_3: sound definition missing; restart after installing v0.10.0
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] Audio ZB_Track_3: engine returned no sound handle; check asset loading
+PASS missing definitions and zero native handles block silent song starts with a visible reason
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] test channel 1 emitter table: 000001A1C7367660
+PASS Audio Test uses an explicitly ticked effects voice and returns it without zombie noise
+PASS all seven songs use exactly four playable lanes at every difficulty
+PASS recoverable ROCK meter has explicit difficulty thresholds, overhit cost and opening grace
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS solo missed-note failure is decided by server and stops the song, pose, camera and interface
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS one failed multiplayer musician leaves the remaining performer and music running
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS perspective overlay stays inside 1280x720, flashes hit lanes, consumes controls and Escape exits
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS missing local player and disconnect shutdown discard the old performance and all owned voices
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS library search, collection filters and five sorts retain real song IDs
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS favorites and records belong to the character and instrument/difficulty
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS empty library filters cannot start a hidden track and CLEAR restores browsing
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS keyboard and mouse library selection use song IDs after filtering and sorting
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_4
+PASS local song preview never attracts zombies and stops on start, selection, expiry and close
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS library layout fits supported viewports and performance hides every library control
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_6
+PASS PLAY uses the highlighted filtered song rather than a stale unfiltered selection
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS hotbar callbacks are suppressed only while our interface owns the keys
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS Camera Check reveals the world, Escape returns the library, and menu controls recover
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS three persistent styles and all fifteen sorts retain stable song IDs
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS named playlists save load toggle and safely discard removed song IDs
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS unavailable charts and drum or vocal parts are clearly unavailable
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 5ms
+PASS setlist plays consecutive songs in the same window and retains both records
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS server rejects guest queues invalid songs and unowned instrument changes
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS library preview poses are silent scoped and stop when closing the window
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS controller library actions navigate favorite preview and cancel
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] prepared ZB_Track_2
+PASS delayed multiplayer advances the queued song and waits for both members to become ready
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS library renders only visible rows in a thousand-song catalog
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_6
+[Zomb-Band AUDIO] playing ZB_Track_6 round 1 offset 0ms
+[Zomb-Band AUDIO] prepared ZB_Track_14
+[Zomb-Band AUDIO] playing ZB_Track_14 round 2 offset 0ms
+PASS real replacement catalog completes a consecutive two-song band session with UID records
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS fail cue fires for a valid server fail-out once, never for prediction or stale packets
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS one Play request waits for the slowest musician before a shared five-second countdown
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS host can cancel a pending start without leaving and readiness alone cannot then start it
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS stale ready acknowledgments cannot unlock a replacement song
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS chart and instrument changes invalidate preparation and replay requires fresh acknowledgments
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS a local chart preparation failure holds the lobby until preparation recovers
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS random uses the real exclusive-upper-bound game API without math.random and avoids a no-op choice
+PASS URL validation and custom chart parsing reject malformed media instead of falling back to song one
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS missing URL backend and invalid input leave the custom screen open and block bundled Play
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS solo URL import registers the actual custom track and uses custom audio with no bundled fallback
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS only the lobby host can register a URL and an invalid custom payload never changes the selected song
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS two prepared custom clients wait for matching media then schedule the same track and round
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS cancelling a URL request prevents a later completed download from registering or starting any song
+ALL 61 REGRESSION GROUPS PASSED (mocked PZ APIs)
+
+Kahlua gameplay
+PASS all instrument/difficulty charts stay within audio and increase density
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS exact inventory types, nested bags, and false-positive rejection
+PASS miss expiration and wrong-key streak reset happen once
+PASS judgment boundaries and streak multipliers
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band CAMERA] Camera companion not loaded - enable it and restart
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+PASS inventory Rock Out opens setup, selects song/difficulty, starts solo
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 5ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS network clock skew and latency do not change a perfect hit
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+PASS discovery after lobby creation, per-player difficulty, disconnect migration
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS jitter, backing schedule, pending acknowledgments, and rewind bound
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS errors are visible, cross-floor and missing-instrument requests rejected
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_1 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 0ms
+PASS all songs/difficulties complete, reconcile results, and replay a fresh round
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS abandoned lobby expires without retaining disconnected identities
+PASS all imported song charts are nested, role-specific and within playback
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS full imported song plays with delayed acknowledgments and no synthetic tones
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS UI children are constructed exactly once through vanilla-style instantiation
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS the ten vanilla instruments work without accessories and forbidden items cannot bypass exclusions
+PASS spatial gain falls off in three dimensions and band radii stay small and capped
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS two independent clients start one positional mix in sync and do not duplicate AI noise
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 5ms
+PASS a spectator waits for clock calibration instead of starting early from a skewed wall clock
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 1 offset 5ms
+PASS six-member noise range shrinks on invalid membership and stops at the end of the song
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS all ten instruments use matching timed-action loops and hand models
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS being hit interrupts the performance and cleans up the animation and owned audio
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] Audio ZB_Track_3: sound definition missing; restart after installing v0.10.0
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] Audio ZB_Track_3: engine returned no sound handle; check asset loading
+PASS missing definitions and zero native handles block silent song starts with a visible reason
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] test channel 1 emitter table 0x591137559{ playSoundImpl=closure 0x1674896058, set3D=closure 0x866191240, setVolume=closure 0x1879492184, isPlaying=closure 0x872627152, setPos=closure 0x1207769059, tick=closure 0x2094777811, stopSoundLocal=closure 0x984213526, owned=true, record=table 0x400136488 }
+PASS Audio Test uses an explicitly ticked effects voice and returns it without zombie noise
+PASS all seven songs use exactly four playable lanes at every difficulty
+PASS recoverable ROCK meter has explicit difficulty thresholds, overhit cost and opening grace
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS solo missed-note failure is decided by server and stops the song, pose, camera and interface
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_3
+[Zomb-Band AUDIO] playing ZB_Track_3 round 1 offset 0ms
+PASS one failed multiplayer musician leaves the remaining performer and music running
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS perspective overlay stays inside 1280x720, flashes hit lanes, consumes controls and Escape exits
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+PASS missing local player and disconnect shutdown discard the old performance and all owned voices
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS library search, collection filters and five sorts retain real song IDs
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS favorites and records belong to the character and instrument/difficulty
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS empty library filters cannot start a hidden track and CLEAR restores browsing
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS keyboard and mouse library selection use song IDs after filtering and sorting
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_4
+PASS local song preview never attracts zombies and stops on start, selection, expiry and close
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS library layout fits supported viewports and performance hides every library control
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_6
+PASS PLAY uses the highlighted filtered song rather than a stale unfiltered selection
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS hotbar callbacks are suppressed only while our interface owns the keys
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS Camera Check reveals the world, Escape returns the library, and menu controls recover
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS three persistent styles and all fifteen sorts retain stable song IDs
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS named playlists save load toggle and safely discard removed song IDs
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS unavailable charts and drum or vocal parts are clearly unavailable
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] prepared ZB_Track_2
+[Zomb-Band AUDIO] playing ZB_Track_2 round 2 offset 5ms
+PASS setlist plays consecutive songs in the same window and retains both records
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS server rejects guest queues invalid songs and unowned instrument changes
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS library preview poses are silent scoped and stop when closing the window
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS controller library actions navigate favorite preview and cancel
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band AUDIO] playing ZB_Track_1 round 1 offset 0ms
+[Zomb-Band AUDIO] prepared ZB_Track_2
+PASS delayed multiplayer advances the queued song and waits for both members to become ready
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS library renders only visible rows in a thousand-song catalog
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_6
+[Zomb-Band AUDIO] playing ZB_Track_6 round 1 offset 0ms
+[Zomb-Band AUDIO] prepared ZB_Track_14
+[Zomb-Band AUDIO] playing ZB_Track_14 round 2 offset 0ms
+PASS real replacement catalog completes a consecutive two-song band session with UID records
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS fail cue fires for a valid server fail-out once, never for prediction or stale packets
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS one Play request waits for the slowest musician before a shared five-second countdown
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS host can cancel a pending start without leaving and readiness alone cannot then start it
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS stale ready acknowledgments cannot unlock a replacement song
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS chart and instrument changes invalidate preparation and replay requires fresh acknowledgments
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS a local chart preparation failure holds the lobby until preparation recovers
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS random uses the real exclusive-upper-bound game API without math.random and avoids a no-op choice
+PASS URL validation and custom chart parsing reject malformed media instead of falling back to song one
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS missing URL backend and invalid input leave the custom screen open and block bundled Play
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS solo URL import registers the actual custom track and uses custom audio with no bundled fallback
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS only the lobby host can register a URL and an invalid custom payload never changes the selected song
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+[Zomb-Band AUDIO] prepared ZB_Track_1
+PASS two prepared custom clients wait for matching media then schedule the same track and round
+[Zomb-Band] v0.10.0 server loaded - author HUNK
+[Zomb-Band] v0.10.0 client loaded - author HUNK
+PASS cancelling a URL request prevents a later completed download from registering or starting any song
+ALL 61 REGRESSION GROUPS PASSED (mocked PZ APIs)
+Kahlua result: true
+
+Lua 5.1 camera
+PASS only band participants resolve; spectators are excluded
+PASS shared beat clock visits all eight shot types and multiple musicians
+PASS musical activity and note streaks select the featured player
+PASS each client can focus itself without changing the shared shot cadence
+PASS clearance sweep rejects walls, furniture, unloaded squares, floor voids and room crossings
+PASS solo and band compositions stay inside a floor and have a clear subject ray
+[Zomb-Band CAMERA] FULL BAND / Guitarist
+PASS camera follows the shared song start even if a native queued action has no started flag
+PASS spectators and missing companion never acquire a native camera or block movement
+PASS cancellation, death, vehicle entry, interruption and song end restore controls and close the overlay
+PASS manual camera toggle restores the prior movement lock without stopping rhythm gameplay
+PASS blocked scenes and native errors release the lease safely
+PASS Camera Check drives a lens without starting a song and restores after six seconds
+PASS failed walkability cache does not reject an otherwise clear lens path
+PASS first-person performer lease stays active with cinematic camera off and clears on exit
+PASS library director moves a slow local preview without claiming a real performance
+PASS director holds the featured musician and facing for the entire shot
+PASS an obstructed orbit holds its safe lens rather than repeatedly selecting another side
+PASS cached band actors supply fresh positions between membership lookups
+ALL 18 CAMERA REGRESSION GROUPS PASSED (mocked world and native bridge)
+
+Kahlua camera
+PASS only band participants resolve; spectators are excluded
+PASS shared beat clock visits all eight shot types and multiple musicians
+PASS musical activity and note streaks select the featured player
+PASS each client can focus itself without changing the shared shot cadence
+PASS clearance sweep rejects walls, furniture, unloaded squares, floor voids and room crossings
+PASS solo and band compositions stay inside a floor and have a clear subject ray
+[Zomb-Band CAMERA] FULL BAND / Guitarist
+PASS camera follows the shared song start even if a native queued action has no started flag
+PASS spectators and missing companion never acquire a native camera or block movement
+PASS cancellation, death, vehicle entry, interruption and song end restore controls and close the overlay
+PASS manual camera toggle restores the prior movement lock without stopping rhythm gameplay
+PASS blocked scenes and native errors release the lease safely
+PASS Camera Check drives a lens without starting a song and restores after six seconds
+PASS failed walkability cache does not reject an otherwise clear lens path
+PASS first-person performer lease stays active with cinematic camera off and clears on exit
+PASS library director moves a slow local preview without claiming a real performance
+PASS director holds the featured musician and facing for the entire shot
+PASS an obstructed orbit holds its safe lens rather than repeatedly selecting another side
+PASS cached band actors supply fresh positions between membership lookups
+ALL 18 CAMERA REGRESSION GROUPS PASSED (mocked world and native bridge)
+Kahlua result: true
+
+Lua 5.1 catalog
+PASS production catalog contains only fourteen charted Bryson Kelly songs and no demos
+PASS all 168 actual charts use ordered audio timestamps and four lanes with nested difficulties
+PASS fresh UID profiles preserve display settings and cannot reuse old slot-number scores
+PASS production search artist grouping filters and UID playlists resolve real tracks
+PASS menu navigation is local rate-limited varied and prevents stacking
+PASS pre-song cues follow the existing countdown exactly once without changing its clock
+PASS late countdown updates skip old cues and spectators hear no performance startup
+PASS fail-out sting plays once locally and survives the return-to-library cleanup
+ALL 8 PRODUCTION CATALOG / MENU AUDIO GROUPS PASSED (mocked UI sound manager)
+
+Kahlua catalog
+PASS production catalog contains only fourteen charted Bryson Kelly songs and no demos
+PASS all 168 actual charts use ordered audio timestamps and four lanes with nested difficulties
+PASS fresh UID profiles preserve display settings and cannot reuse old slot-number scores
+PASS production search artist grouping filters and UID playlists resolve real tracks
+PASS menu navigation is local rate-limited varied and prevents stacking
+PASS pre-song cues follow the existing countdown exactly once without changing its clock
+PASS late countdown updates skip old cues and spectators hear no performance startup
+PASS fail-out sting plays once locally and survives the return-to-library cleanup
+ALL 8 PRODUCTION CATALOG / MENU AUDIO GROUPS PASSED (mocked UI sound manager)
+Kahlua result: true
+
+native media
+PASS video-only HTTPS normalization and arbitrary-host/file/playlist rejection
+PASS real PCM decode/read, 60-second duration (no integer overflow), audio SHA-256, deterministic attack timestamps and chart SHA-256: 115 notes
+PASS cancellation generation prevents stale background readiness
+PASS actual Windows audio device opened asynchronously; muted scheduled PCM cursor advances
+ALL OFFLINE MEDIA BRIDGE CHECKS COMPLETED; URL download and live multi-machine audio remain untested
+
+native Lua export
+[ZB] Exposing class to Lua: ZombBandMedia
+PASS real ZombieBuddy exporter + game LuaManager.Exposer + Kahlua: media global exists and version() executes as 0.10.0
+
+native workshop
+PASS real installed SteamWorkshopItem.readWorkshopTxt, preview PNG format/512-square/file-size, validateContents and all four mod IDs
+PASS new-item ID absent, HUNK/Bryson Kelly credits in actual submit description, description below 8000 UTF-8 bytes, public visibility
+Mods: [HUNKSurvivorBand, HUNKZombBandCinematic, HUNKZombBandCustom, HUNKZombBandTestKit]
+Submit tags: [Build 42]
+No create(), submitUpdate(), Steam publication or account modification performed.

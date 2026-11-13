@@ -1,0 +1,7 @@
+{
+    "Base.ZombBand_AcousticGuitar": "Guitarra acústica (Zomb-Band)",
+    "Base.ZombBand_ElectricGuitar": "Guitarra eléctrica (Zomb-Band)",
+    "Base.ZombBand_BassGuitar": "Bajo eléctrico (Zomb-Band)",
+    "Base.ZombBand_DrumKit": "Batería completa",
+    "Base.ZombBand_MicrophoneStand": "Micrófono con soporte de pie"
+}

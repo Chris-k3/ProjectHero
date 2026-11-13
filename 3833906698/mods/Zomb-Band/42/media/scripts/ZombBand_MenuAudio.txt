@@ -1,0 +1,366 @@
+/* User-supplied menu cues. Local UI only; no world/zombie sound. */
+module Base
+{
+    sound ZB_UI_ampcrowdstartup_da
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/ampcrowdstartup_da.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_ca
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/ca.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_cheers_startup
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/cheers-startup.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_drums_ha
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/drums_ha.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_ea
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/ea.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_guitarstartup_a
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/guitarstartup_a.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_guitarstart_ga
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/guitarstart_ga.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_menuback1_x
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menuback1_x.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menuback2_y
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menuback2_y.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menuback3_z
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menuback3_z.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menumove1_t
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menumove1_t.wav,
+            volume = 0.3,
+        }
+    }
+    sound ZB_UI_menumove2_u
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menumove2_u.wav,
+            volume = 0.3,
+        }
+    }
+    sound ZB_UI_menumove3_v
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menumove3_v.wav,
+            volume = 0.3,
+        }
+    }
+    sound ZB_UI_menumove4_w
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menumove4_w.wav,
+            volume = 0.3,
+        }
+    }
+    sound ZB_UI_menusel10_o
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel10_o.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel11_p
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel11_p.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel12_q
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel12_q.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel13_r
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel13_r.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel14_s
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel14_s.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel1_g
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel1_g.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel2_h
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel2_h.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel3_i
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel3_i.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel4_j
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel4_j.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel5_k
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel5_k.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel7_l
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel7_l.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel8_m
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel8_m.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_menusel9_n
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/menusel9_n.wav,
+            volume = 0.4,
+        }
+    }
+    sound ZB_UI_overdrive_end
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/overdrive-end.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_overdrive1
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/overdrive1.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_overdrive2
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/overdrive2.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_startup2_fa
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/startup2_fa.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_swoosh
+    {
+        category = UI,
+        master = Primary,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/swoosh.wav,
+            volume = 0.5,
+        }
+    }
+    sound ZB_UI_Silent
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/ZombBand/Menu/silent.wav,
+            volume = 0,
+        }
+    }
+}

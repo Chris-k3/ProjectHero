@@ -1,0 +1,200 @@
+/* Positional Bryson Kelly full mixes plus the diagnostic tone. */
+module Base
+{
+    sound ZB_Track_1
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_1.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_2
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_2.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_3
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_3.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_4
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_4.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_5
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_5.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_6
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_6.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_7
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_7.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_8
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_8.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_9
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_9.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_10
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_10.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_11
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_11.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_12
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_12.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_13
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_13.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_Track_14
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/Track_14.wav,
+            volume = 0.85,
+            distanceMin = 2,
+            distanceMax = 36,
+        }
+    }
+    sound ZB_AudioTest
+    {
+        category = Item,
+        master = Primary,
+        is3D = true,
+        clip
+        {
+            file = media/sound/ZombBand/AudioTest.wav,
+            volume = 0.8,
+            distanceMin = 2,
+            distanceMax = 16,
+        }
+    }
+
+}

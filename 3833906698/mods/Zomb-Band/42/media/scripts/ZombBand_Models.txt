@@ -1,0 +1,94 @@
+/* ZOMB-BAND 3D static models for instruments and stage props. */
+module Base
+{
+    model ZombBand_ViolinBow
+    {
+        mesh = ZombBand/ViolinBow,
+        texture = ZombBand/ViolinBow,
+        attachment Bip01_Prop2
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model ZombBand_AcousticGuitar
+    {
+        mesh = ZombBand/AcousticGuitar,
+        texture = ZombBand/AcousticGuitar,
+        attachment world
+        {
+            offset = -0.0009 0.2764 -0.0668,
+            rotate = 0.0 -90.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0269 -0.0002 -0.0002,
+            rotate = 180.0 -88.6887 180.0,
+        }
+    }
+
+    model ZombBand_ElectricGuitar
+    {
+        mesh = ZombBand/ElectricGuitar,
+        texture = ZombBand/ElectricGuitar,
+        attachment world
+        {
+            offset = -0.0009 0.2764 -0.0450,
+            rotate = 0.0 -90.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0269 -0.0002 -0.0002,
+            rotate = 180.0 -88.6887 180.0,
+        }
+    }
+
+    model ZombBand_BassGuitar
+    {
+        mesh = ZombBand/BassGuitar,
+        texture = ZombBand/BassGuitar,
+        attachment world
+        {
+            offset = -0.0009 0.3000 -0.0450,
+            rotate = 0.0 -90.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0269 -0.0002 -0.0002,
+            rotate = 180.0 -88.6887 180.0,
+        }
+    }
+
+    model ZombBand_DrumKit_Prop
+    {
+        mesh = ZombBand/DrumKit_Prop,
+        texture = ZombBand/DrumKit_Prop,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model ZombBand_MicrophoneStand
+    {
+        mesh = ZombBand/MicrophoneStand,
+        texture = ZombBand/MicrophoneStand,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment Bip01_Prop1
+        {
+            offset = 0.0 -1.32 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = 0.0 -1.32 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+}

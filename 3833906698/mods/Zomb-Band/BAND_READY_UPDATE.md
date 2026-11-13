@@ -1,0 +1,13 @@
+# Zomb-Band v0.9.2 / HUNK — Wait for the Whole Band
+
+Press Play once. The band stays in its lobby while participants prepare the selected track, their instrument chart and clock synchronization. PREPARING SONG shows the prepared count, such as 3/4 synced. Only when all current participants have confirmed the current preparation does the host request the existing shared five-second countdown. There is no fixed short timer that forces an unprepared musician into the song.
+
+The Play button becomes CANCEL WAIT while waiting. Cancel keeps the band in its lobby; players becoming ready afterward cannot start it automatically. A new Play request can resume waiting. Normal leave/disconnect and abandoned-lobby cleanup still apply; the existing idle-lobby lifetime is ten minutes.
+
+Readiness is tied to a preparation revision, song UID/duration, instrument, difficulty and chart note count. Changing a track or part invalidates preparation. Replay and advancing a setlist require fresh acknowledgments. Late acknowledgments for a prior revision do not unlock the new setup. Both the host's automatic start check and the server validate the current acknowledgments. Local chart generation and muted PCM warm-up must succeed; multiplayer clients also need clock samples before acknowledging readiness. A missing sound definition still blocks solo creation with its existing visible error.
+
+This update applies to the existing fourteen-song Bryson Kelly catalog. It does not add URL downloading, live-stream playback or automatic charts for pasted links. A future custom-media backend must report its decoded audio/chart readiness through this gate, including exact custom-content/audio/chart hashes. The current built-in catalog uses its packaged song UID and current part/revision identity; it does not independently hash each PCM file at runtime or prove cross-machine sample-perfect output latency.
+
+Protocol is now 9. Update the host/server and all clients to v0.9.2 and restart. Previous protocol-8 clients are deliberately rejected. Mod author HUNK, song author/artist Bryson Kelly, the v0.9.1 fail-out cue, all music/charts, camera companion and poster artwork remain.
+
+Validation: 54 gameplay/network/library groups, 18 director groups and eight production-catalog/menu groups pass in Lua 5.1 and installed-game Kahlua (80 per engine). Game/network/UI/FM0D APIs in those suites are mocked. New cases verify a 20-second slow-member wait with zero performance noise, a future five-second start after the last ready acknowledgment, cancellation, stale acknowledgments, setup/replay invalidation and recovery from a local chart-preparation failure. Live multiplayer behavior after this update still needs an in-game playtest.

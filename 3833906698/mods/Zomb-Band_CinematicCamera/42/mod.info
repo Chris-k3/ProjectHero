@@ -1,0 +1,12 @@
+name=Zomb-Band - Cinematic Camera
+id=HUNKZombBandCinematic
+author=HUNK
+version=0.8.1
+versionMin=42.21
+require=\HUNKSurvivorBand,\ZombieBuddy,\Viewpoint
+loadAfter=\Viewpoint,\ViewpointDirectorsCut
+javaJarFile=media/java/client/ZombBandCamera.jar
+javaPkgName=hunk.zombband.camera
+ZBVersionMin=2.3.0
+description=Client-only concert camera for Zomb-Band. Enable alongside the main mod, Viewpoint and ZombieBuddy. Only participating musicians acquire the camera. Restores the previous view after every performance.
+poster=poster.png

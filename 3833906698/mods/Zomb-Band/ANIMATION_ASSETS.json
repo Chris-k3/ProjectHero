@@ -1,0 +1,140 @@
+{
+  "source": "User-provided PlayItInstruments.rar",
+  "sourceMod": "Play it! Playable musical instruments",
+  "sourceModId": "PlayItInstruments",
+  "clips": [
+    {
+      "source": "anims_X/Bob/Bob_PlayItGuitar.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandGuitar.glb",
+      "sha256": "dc344e1b661398b3874402857837a87c69f8b3a823156fb115a94e2e209ab054",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItGuitarChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandGuitarChair.glb",
+      "sha256": "01c81099e4d277f0d8e50a4300cde643530bb62f2ba8760ae3ef3b1fb2f7a273",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItGuitarGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandGuitarGround.glb",
+      "sha256": "f42230bcbca0bc737300d7a9edd2689d3575185895dc4598a491965589aee191",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItViolin.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandViolin.glb",
+      "sha256": "c5e934a1a3c1f2ba46923d3e9c4e052eb83a4cbb4135a09d40d6aec9ec5ed022",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItViolinChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandViolinChair.glb",
+      "sha256": "d0232e96844fde932aec98ee74089334aaf58539a003a64156be22359c17bba2",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItViolinGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandViolinGround.glb",
+      "sha256": "355eaa9c08fdfa473acee312cc1dd18bd4437776201d21192b5406f76d697397",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItFlute.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandFlute.glb",
+      "sha256": "6a38517c64ac80b579bb07f0e8e122526eed18d734c429d790821240f173ff20",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItFluteChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandFluteChair.glb",
+      "sha256": "2d8722109ceaa2765e525019750cba2add9c046b6586f1ad3e0f153680804974",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItFluteGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandFluteGround.glb",
+      "sha256": "9ab5e4fb31c6abbe03c7ba5684e2d39436076f77e5e440b6ee87ce9bcea5d5be",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItHarmonica.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandHarmonica.glb",
+      "sha256": "1bdbd5c1e6a9bd42b2ee609afd936c1af552cd0d12452a1b70a4776fa67ae9da",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItHarmonicaChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandHarmonicaChair.glb",
+      "sha256": "cb173d628436858cda7b1a5278cb4400638163966b6a16ab167158fd02794c83",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItHarmonicaGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandHarmonicaGround.glb",
+      "sha256": "d8f0f0ce5f63b116061c738e062be21b4be15c4fb1ec13a9efda124096d0b76d",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItSaxophone.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandSaxophone.glb",
+      "sha256": "fcef269a2ed23ca17372429e1e8ec0adbb0749d4b9aa909fbb7549343ad61420",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItSaxophoneChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandSaxophoneChair.glb",
+      "sha256": "86c4cfef269636787edbd96012f9ec9ec6f53a14ec56acf8ebf85a1a0244fccd",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItSaxophoneGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandSaxophoneGround.glb",
+      "sha256": "1ffe11f000ad8c9ff1b7a0f083f69a0872666299b8f2ddc4cf03bc28234401ca",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItTrumpet.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandTrumpet.glb",
+      "sha256": "e33798d949712e90bbb67e7360439326a13b6b0a938ab246bdb69fe277f571bd",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItTrumpetChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandTrumpetChair.glb",
+      "sha256": "2e5e132d5cfcbc7e4a669c6f4aa081944b35be5144459faba6ed34ae5f137954",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItTrumpetGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandTrumpetGround.glb",
+      "sha256": "377b413f87e4bdf63640f1d820875678fc328e8ea174d3e0ba1b5f204fbe2efd",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItKeytar.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandKeytar.glb",
+      "sha256": "d9bc142ea080a3231f6d93c2d37a817f4e805d1b2bee5cbfb0433ecbc9db71f4",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItKeytarChair.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandKeytarChair.glb",
+      "sha256": "b7a3569c6e2030d5077edb33701df6459e3a5130e6a9247d99eb49443c4b7615",
+      "unsupportedChannelsRemoved": 15
+    },
+    {
+      "source": "anims_X/Bob/Bob_PlayItKeytarGround.glb",
+      "target": "42/media/anims_X/Bob/Bob_ZombBandKeytarGround.glb",
+      "sha256": "b2f984b816fab05bb60700103bb221db72040c546985868962265da8cc794013",
+      "unsupportedChannelsRemoved": 15
+    }
+  ],
+  "removedChannelNodes": [
+    "Bip01_Prop1_end",
+    "Bip01_Prop2_end",
+    "Bip01_Root",
+    "HLPR-ChestTransform",
+    "HLPR=RemapSpace"
+  ]
+}

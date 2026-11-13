@@ -1,0 +1,9 @@
+name=Zomb-Band - Instrument Test Kit
+id=HUNKZombBandTestKit
+version=0.1.0
+versionMin=42.20
+author=HUNK
+require=HUNKSurvivorBand
+category=Other
+description=Optional test addon for Zomb-Band. Gives each character the ten supported vanilla instruments once, automatically on entering a game. Disable after testing.
+poster=poster.png

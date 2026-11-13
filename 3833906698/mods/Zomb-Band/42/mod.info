@@ -1,0 +1,9 @@
+name=Zomb-Band
+id=HUNKSurvivorBand
+version=0.12.0
+versionMin=42.20
+loadAfter=\NewMusic,\NMGreatestHits,\NewMusicG80s,\NewMusicG90s,\NewMusicG70s,\NewMusic_CMM,\EA_H,\Lifestyle,\LifestyleHobbies
+author=HUNK
+category=Other
+description=Zomb-Band by HUNK. Fourteen playable songs by Bryson Kelly, supplied menu/startup cues, four difficulties, synchronized bands and positional music with a small band-size-scaled zombie attraction radius.
+poster=poster.png
